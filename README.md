@@ -1,4 +1,4 @@
-# Android device tree for motorola moto g73 5G (cancunf)
+# Android device tree for motorola moto g54 5G (cancunf)
 
 ```
 #
