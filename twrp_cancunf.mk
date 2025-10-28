@@ -10,15 +10,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from cancunf device
 $(call inherit-product, device/motorola/cancunf/device.mk)
 
 PRODUCT_DEVICE := cancunf
-PRODUCT_NAME := omni_cancunf
+PRODUCT_NAME := twrp_cancunf
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto g73 5G
+PRODUCT_MODEL := moto g54 5G
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
