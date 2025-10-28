@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_cancunf.mk
+    $(LOCAL_DIR)/twrp_cancunf.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_cancunf-user \
-    omni_cancunf-userdebug \
-    omni_cancunf-eng
+    twrp_cancunf-user \
+    twrp_cancunf-userdebug \
+    twrp_cancunf-eng
